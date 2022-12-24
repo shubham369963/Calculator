@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+   background-color: black;
+   z-index: -1;
+   position: sticky;
+}
+.all #display{
+    display: block;
+   height: 50px;
+    width: 200px;
+    border-color: rgb(37, 190, 88);
+    border-radius: 2px;
+    border-width: 0.1px;
+    font-size: 25px;
+    color: aliceblue;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.nu{
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    
+
+}
+.nu input{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    color: #f0f8ff;
+    margin-top: 1px;
+    border-width: 0.6px;
+    border-color: #f0f8ff;
+    width: 40px;
+    position: sticky;
+
+}
+ .all .clear{
+     display: inline-block;
+     margin-left: 75px;
+     
+ }
+ .clear input{
+    font-size: 10px;
+    height: 45px;
+    width: 45px;
+    background-color: black;
+    font-size: large;
+    border-radius: 50%;
+    margin-top: -10px;
+    color: rgb(255, 0, 0);
+    border-color: rgb(255, 0, 0);
+    border-width: 0.6px;
+    margin-left: 8px;
+    
+ }
+ .clear :hover{
+     cursor: pointer;
+     background-color: #191a1a;
+     border-color: rgb(92, 91, 91);
+     font-size: 25px;
+ }
+.n1 :hover{
+    cursor: pointer;
+    background-color: #191a1a;
+    font-size:medium;
+ }
+ #display input :hover{
+     cursor: pointer;
+ }
+ .n2 :hover{
+    cursor: pointer;
+    background-color: #191a1a;
+    font-size: medium;
+ }
+ .n3 :hover{
+    cursor: pointer;
+    background-color: #191a1a;
+    font-size: medium;
+ }
+ .n4 :hover{
+    cursor: pointer;
+    background-color: #191a1a;
+    font-size: medium;
+ }
+ .n5 :hover{
+    cursor: pointer;
+    background-color: #191a1a;
+    font-size: medium;
+ } 
+ .n4 input{
+     color:rgb(6, 245, 6);
+     position: sticky;
+    
+ }
+ .n5 input{
+     color:rgb(6, 245, 6);
+     position: sticky;
+ }
+
+.n4 :nth-child(2){
+     color: white;
+}
+.n4 :not(nth-child(2)){
+    font-size: large;
+    
+}
+.n5 :nth-child(3){
+    color: white;
+    background-color: rgb(29, 243, 29);
+
+}
+.nu input{
+    background-color: rgb(10, 8, 8);
+    border-color: rgb(163, 159, 159);
+}
+.n5 :nth-child(3):hover{
+   background-color: rgb(13, 146, 13);
+}
+.n1{
+    height: 45px;
+    position: sticky;
+    
+}
+.n2{
+    height: 45px;
+    position: sticky;
+}
+.n3{
+    height: 45px;
+    position: sticky;
+}
+.n4{
+    height: 45px;
+    position: sticky;
+}
+.n5{
+    height: 45px;
+    position: sticky;
+}

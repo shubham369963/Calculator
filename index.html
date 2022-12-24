@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="new.css" type="text/css">
+    <title>calculator</title>
+</head>
+<body>
+<form class="all" name="btn">
+        <input type="text" name="answer" id="display"><br>
+        <div class="nu">
+            <div class="n1">
+        <input type="button" value="1" onclick="btn.answer.value +='1'">
+        <input type="button" value="2" onclick="btn.answer.value +='2'">
+        <input type="button" value="3" onclick="btn.answer.value +='3'">
+    </div>
+    <div class="n2">
+        <input type="button" value="4" onclick="btn.answer.value +='4'">
+        <input type="button" value="5" onclick="btn.answer.value +='5'">
+        <input type="button" value="6" onclick="btn.answer.value +='6'">
+    </div>
+    <div class="n3">
+        <input type="button" value="7" onclick="btn.answer.value +='7'">
+        <input type="button" value="8" onclick="btn.answer.value +='8'">
+        <input type="button" value="9" onclick="btn.answer.value +='9'">
+    </div>
+    <div class="n4">
+        <input type="button" value="*" onclick="btn.answer.value +='*'">
+        <input type="button" value="0" class="o" onclick="btn.answer.value +='0'">
+        <input type="button" value="/" onclick="btn.answer.value +='/'">
+    </div>
+    <div class="n5">
+        <input type="button" value="+" onclick="btn.answer.value +='+'">
+        <input type="button" value="-" onclick="btn.answer.value +='-'">
+        <input type="button" value="=" onclick="btn.answer.value =eval(btn.answer.value)">
+    </div>
+    </div>
+        <br>
+        <div class="clear">
+            <input type="button" value="C" onclick="btn.answer.value =' '">
+            </div>
+</form>
+
+</body>
+</html>
